@@ -21,3 +21,10 @@ Every time you give an AI tool a significant prompt, add an entry. Three lines e
 - **What I asked:**
 - **What came back:**
 - **What was wrong (or "nothing"):**
+
+## Build 3
+
+### Prompt 1: Build 3 architecture and server skeleton (docs/build-3.md)
+- **What I asked:** Document the architecture, add the booking state machine, create a small HTTP router and static-file server, configure the port, and test the behavior.
+- **What came back:** Added the requested diagrams, transition rules, HTTP endpoints, static-file containment checks, startup script, and built-in Node tests.
+- **What was wrong (or "nothing"):** The prompt named a root `README.md`, but the repository keeps that guide at `docs/README.md`; I read the existing guide there instead. No Build 3 behavior needed correction after the focused tests.
